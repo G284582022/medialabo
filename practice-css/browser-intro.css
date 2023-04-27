@@ -3,16 +3,21 @@ p {
 }
 
 p.info {
+	background-color: #dfdfdf;
 	font-size:small;
 }
 
 h1 {
 	background-color: #dfdfdf;
+	text-shadow:navy 0px 0 10px;
+	color: white;
 }
 
 h2 {
 	border: solid 1px black;
 	margin: 5px;
+	font-family: cursive;
+	background: linear-gradient(0.25);
 }
 
 div#zentai {
@@ -23,7 +28,7 @@ div#zentai {
 	padding: 5px;
 	flex-direction: row;
 	width: 1024px;
-	
+
 }
 
 img.sign {
