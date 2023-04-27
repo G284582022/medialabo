@@ -7,7 +7,7 @@ p.info {
 }
 
 h1 {
-	background-color: #;
+	background-color: #dfdfdf;
 }
 
 h2 {
@@ -16,7 +16,8 @@ h2 {
 }
 
 div#zentai {
-	display: grid;
+	display: grid
+	grid-template-columns;1fr 1fr;
 	flex-direction: row;
 	width: 1024px;
 }
