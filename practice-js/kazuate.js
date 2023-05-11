@@ -24,14 +24,14 @@ function hantei() {
     console.log("答えは" + kotae +"でした．すでにゲームは終わっています");
   }else{
     if (yoso > kotae) {
-        console.log("答えはもっと小さいですよ");
+        console.log("まちがい。答えはもっと小さいですよ");
     }else if(yoso < kotae) {
-        console.log("答えはもっと大きいですよ");
+        console.log("まちがい。答えはもっと大きいですよ");
     }else{
         console.log("正解です.おめでとう!");
     }
   }
-}
   // 課題3-1: 正解判定する
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
+}
