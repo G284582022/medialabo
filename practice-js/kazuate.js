@@ -19,7 +19,7 @@ function hantei() {
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
   let yoso = 4;
   kaisu += 1;
-  console.log(kaisu + "回目の予想: " + yoso)4
+  console.log(kaisu + "回目の予想: " + yoso)
   if (kaisu > 4) {
     console.log("答えは" + kotae +"でした．すでにゲームは終わっています");
   }else{
