@@ -15,9 +15,10 @@ let data = [
 
 // 練習4-2 メッセージ追加プログラム
 let h2 = document.querySelector('h2#ex42');
-let p1 = document.createElement('p');
-p1.style.color = 'seagreen';
-h2.insertAdjacentElement('afterend', p1);
+let p = document.createElement('p');
+p.style ="text-emphasis : sesame green;";
+p.textContent ='写真表と年の緯度経度のページです';
+h2.insertAdjacentElement('afterend', p);
 
 // 練習4-33 写真表作成プログラム
 
