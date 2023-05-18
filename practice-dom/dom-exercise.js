@@ -17,6 +17,7 @@ let data = [
 let h2 =document.querySelector('h2#ex42');
 p1 = document.createElement(p);
 p1.style='ext-emphasis: sesame green;';
+h2.insertAdjacentElement('afterend');
 
 // 練習4-33 写真表作成プログラム
 
