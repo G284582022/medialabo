@@ -31,7 +31,12 @@ for (i of people){
 	div.insertAdjacentElement("beforeend",p1);
 }
 // 練習4-4 箇条書き削除プログラム
-
+let li =document.querySelector('ul#location');
+li2 =document.querySelectorAll("li");
+for (let n of li2){
+	n.remove();
+	console.log(n);
+}
 
 // 練習4-5 箇条書き追加プログラム
 
