@@ -21,7 +21,7 @@ p.textContent ='写真表と年の緯度経度のページです';
 h2.insertAdjacentElement('afterend', p);
 
 // 練習4-33 写真表作成プログラム
-
+let  people =["./taro.png,","./jiro.png,","/hanako.png"];
 
 // 練習4-4 箇条書き削除プログラム
 
