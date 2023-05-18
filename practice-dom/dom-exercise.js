@@ -24,7 +24,7 @@ h2.insertAdjacentElement('afterend', p);
 let  people =["./taro.png,","./jiro.png,","/hanako.png"];
 for (i of people){
 	let div = document.querySelector('div#phototable');
-	let s = document.createElement("img");
+	let s = document.createElement("img")
 	s.setAttribute["src",i]
 	let p1 =document.createElement(img)
 	p1.insertAdjacentElement("beforeend",s)
