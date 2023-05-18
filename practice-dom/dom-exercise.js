@@ -14,10 +14,10 @@ let data = [
 //// 注意: 以上は編集しないこと!
 
 // 練習4-2 メッセージ追加プログラム
-let h2 =document.querySelector('h2#ex42');
-p1 = document.createElement(p);
-p1.style='ext-emphasis: sesame green;';
-h2.insertAdjacentElement('afterend');
+let h2 = document.querySelector('h2#ex42');
+let p1 = document.createElement('p');
+p1.style.color = 'seagreen';
+h2.insertAdjacentElement('afterend', p1);
 
 // 練習4-33 写真表作成プログラム
 
