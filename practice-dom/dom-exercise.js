@@ -26,7 +26,7 @@ for (i of people){
 	let div = document.querySelector('div#phototable');
 	let s = document.createElement("img")
 	s.setAttribute["src",i]
-	let p1 =document.createElement(img)
+	let p1 =document.createElement("p")
 	p1.insertAdjacentElement("beforeend",s)
 	div.insertAdjacentElement("beforeend",p1);
 }
