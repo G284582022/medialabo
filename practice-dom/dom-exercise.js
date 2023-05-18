@@ -22,7 +22,14 @@ h2.insertAdjacentElement('afterend', p);
 
 // 練習4-33 写真表作成プログラム
 let  people =["./taro.png,","./jiro.png,","/hanako.png"];
-
+for (i of people){
+	let div = document.querySelector('div#phototable');
+	let s = document.createElement("img");
+	s.setAttribute["src",i]
+	let p1 =document.createElement(img)
+	p1.insertAdjacentElement("beforeend",s)
+	div.insertAdjacentElement("beforeend",p1);
+}
 // 練習4-4 箇条書き削除プログラム
 
 
