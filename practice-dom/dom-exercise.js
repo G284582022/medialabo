@@ -33,10 +33,16 @@ for (i of people){
 // 練習4-4 箇条書き削除プログラム
 let li =document.querySelector('ul#location');
 li2 =document.querySelectorAll("li");
-for (let n of li2){
-	n.remove();
-	console.log(n);
+for (w of list){
+	w.remove();
 }
 
-// 練習4-5 箇条書き追加プログラム
 
+// 練習4-5 箇条書き追加プログラム
+for (target of data){
+	let text =target.name+"緯度:"+target.lat+",経度:"+target.lng;
+	let li =document.querySelector("ul#location");
+	let s2=document.createElement("li")
+	s2.textContent =text;
+	li.insertAdjacent("beforeend",s2);
+}
