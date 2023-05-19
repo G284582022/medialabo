@@ -44,5 +44,5 @@ for (target of data){
 	let li =document.querySelector("ul#location");
 	let s2=document.createElement("li")
 	s2.textContent =text;
-	li.insertAdjacent("beforeend",s2);
+	li.insertAdjacentElement("beforeend",s2);
 }
