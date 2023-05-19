@@ -33,7 +33,7 @@ for (i of people){
 // 練習4-4 箇条書き削除プログラム
 let li =document.querySelector('ul#location');
 li2 =document.querySelectorAll("li");
-for (w of list){
+for (w of li2){
 	w.remove();
 }
 
