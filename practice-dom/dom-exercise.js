@@ -38,7 +38,7 @@ let img3 = document.createElement('img');
 img1.setAttribute('src','./taro.png.');
 let p3 = document.createElement('p');
 p3.insertAdjacentElement('beforeend', img3);
-div1.insertAdjacentElement('beforeend', p3);
+div3.insertAdjacentElement('beforeend', p3);
 
 // 練習4-4 箇条書き削除プログラム
 let li =document.querySelector('ul#location');
