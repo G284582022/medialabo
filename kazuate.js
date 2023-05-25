@@ -20,19 +20,20 @@ function hantei() {
   let yoso = 4;
   kaisu += 1;
   let k1 =document.querySelector('span#kaisu');
-  ki.textContent =kaisu;
+  k1.textContent =kaisu;
   let k2 =document.querySelector('span#answer');
   k2.textContent=yoso;
   console.log(kaisu + "回目の予想: " + yoso);
+  let p =document.querySelector('p#result')
   if (kaisu > 3) {
-    console.log("答えは" + kotae +"でした．すでにゲームは終わっています");
+    p.textContent=("答えは" + kotae +"でした．すでにゲームは終わっています");
   }else{
     if (yoso > kotae) {
-        console.log("まちがい。答えはもっと小さいですよ");
+      p.textContent=("まちがい。答えはもっと小さいですよ");
     }else if(yoso < kotae) {
-        console.log("まちがい。答えはもっと大きいですよ");
+      p.textContent=("まちがい。答えはもっと大きいですよ");
     }else{
-        console.log("正解です.おめでとう!");
+      p.textContent=("正解です.おめでとう!");
     }
   }
   // 課題3-1: 正解判定する
