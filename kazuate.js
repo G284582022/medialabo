@@ -19,16 +19,21 @@ function hantei() {
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
   let yoso = 4;
   kaisu += 1;
-  console.log(kaisu + "回目の予想: " + yoso)
+  let k1 =document.querySelector('span#kaisu');
+  ki.textContent =kaisu;
+  let k2 =document.querySelector('span#answer');
+  k2.textContent=yoso;
+  console.log(kaisu + "回目の予想: " + yoso);
+  let p1 =document.querySelector('p#result');
   if (kaisu > 3) {
-    console.log("答えは" + kotae +"でした．すでにゲームは終わっています");
+    p1.textContent=("答えは" + kotae +"でした．すでにゲームは終わっています");
   }else{
     if (yoso > kotae) {
-        console.log("まちがい。答えはもっと小さいですよ");
+      p1.textContent=("まちがい。答えはもっと小さいですよ");
     }else if(yoso < kotae) {
-        console.log("まちがい。答えはもっと大きいですよ");
+      p1.textContent=("まちがい。答えはもっと大きいですよ");
     }else{
-        console.log("正解です.おめでとう!");
+      p1.textContent=("正解です.おめでとう!");
     }
   }
   // 課題3-1: 正解判定する
