@@ -35,7 +35,7 @@ p2.insertAdjacentElement('beforeend', img2);
 div2.insertAdjacentElement('beforeend', p2);
 let div3 = document.querySelector('div#phototable');
 let img3 = document.createElement('img');
-img1.setAttribute('src','./taro.png');
+img3.setAttribute('src','./taro.png');
 let p3 = document.createElement('p');
 p3.insertAdjacentElement('beforeend', img3);
 div3.insertAdjacentElement('beforeend', p3);
