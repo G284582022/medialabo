@@ -21,15 +21,12 @@ p.textContent ='写真表と年の緯度経度のページです';
 h2.insertAdjacentElement('afterend', p);
 
 // 練習4-33 写真表作成プログラム
-let  people =["./taro.png,","./jiro.png,","/hanako.png"];
-for (i of people){
-	let div = document.querySelector('div#phototable');
-	let s = document.createElement("img")
-	s.setAttribute["src",i]
-	let p1 =document.createElement("p")
-	p1.insertAdjacentElement("beforeend",s)
-	div.insertAdjacentElement("beforeend",p1);
-}
+let div1 = document.querySelector('div#phototable');
+let img1 = document.createElement('img');
+img1.setAttribute('src','./hanako.png');
+let p1 = document.createElement('p');
+p1.insertAdjacentElement('beforeend', img1);
+div1.insertAdjacentElement('beforeend', p1);
 // 練習4-4 箇条書き削除プログラム
 let li =document.querySelector('ul#location');
 li2 =document.querySelectorAll("li");
