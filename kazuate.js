@@ -19,7 +19,7 @@ function hantei() {
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
   let yoso = 4;
   kaisu += 1;
-  let ki =document.querySelector('span#kaisu');
+  let k1 =document.querySelector('span#kaisu');
   ki.textContent =kaisu;
   let k2 =document.querySelector('span#answer');
   k2.textContent=yoso;
