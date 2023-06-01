@@ -2,3 +2,6 @@ h2{
     color: black ;
     background-color:#ffefaf;
 }
+let a = document.querySelector('sendRequest');
+b.addEventListener('click', sendRequest);
+
