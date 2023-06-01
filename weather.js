@@ -49,8 +49,8 @@
 
 */
 
-let b = document.querySelector('button#print');
-b.addEventListener('click',kion );
+let c1 = document.querySelector('button#print');
+c1.addEventListener('click',kion );
 function kion() {
   let i = document.querySelector('input[name="yoso"]');
   let g=i.value;
