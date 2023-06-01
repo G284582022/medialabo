@@ -48,6 +48,9 @@
   ////////// 課題3-2 ここからプログラムを書こう
 
 */
+<p id="name"></p>
+<p id="temp_max"></p>
+<p id="temp_min"></p>
 
 let d1 = document.querySelector('button#print');
 addEventListener('click',kion );
