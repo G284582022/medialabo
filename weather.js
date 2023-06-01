@@ -43,12 +43,13 @@
     "id": 1816670,
     "name": "北京市",
     "cod": 200
-  };*/
+  };
   
   ////////// 課題3-2 ここからプログラムを書こう
 console.log(data.name);
 console.log(data.main.temp_max);
-console.log(data.main.temp_min);
+console.log(data.main.temp_min);*/
+
 let b = document.querySelector('#sendRequest');
 b.addEventListener('click', sendRequest);
 function sendRequest() {
