@@ -69,7 +69,7 @@ function showResult(resp){
   console.log(data.name);
   console.log(data.main.temp_max);
   console.log(data.main.temp_min);
-  let p1 = document.querySelector('p#name');
+  let d1 = document.querySelector('p#name');
 p1.textContent = ("都市名: "+data.name); 
 let p2 = document.querySelector('p#temp_max');
 p2.textContent = ("最高気温: "+data.main.temp_max+"℃");
