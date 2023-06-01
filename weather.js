@@ -51,3 +51,10 @@ console.log(data.main.temp_max);
 console.log(data.main.temp_min);
 let b = document.querySelector('#sendRequest');
 b.addEventListener('click', sendRequest);
+function sendRequest() {
+  let url = 
+  axios.get(url)
+        .then(showResult)   // 通信成功
+        .catch(showError)   // 通信失敗
+        .then(finish);      // 通信の最後の処理
+}
