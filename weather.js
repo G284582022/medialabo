@@ -51,13 +51,12 @@
 
 let b = document.querySelector('#sendRequest');
 b.addEventListener('click', sendRequest);
-function sendRequest(resp) {
   let i = document.querySelector('imput[name ="yoso"]')
   axios.get(url)
         .then(showResult)   // 通信成功
         .catch(showError)   // 通信失敗
         .then(finish);      // 通信の最後の処理
-}
+
 function showResult(resp) { 
   let data = resp.data;
   if (typeof data === 'string') {
