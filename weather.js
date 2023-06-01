@@ -52,7 +52,7 @@
 let b = document.querySelector('#sendRequest');
 b.addEventListener('click', sendRequest);
 function sendRequest(resp) {
-  let i = document.querySelector('imput'[name=""])
+  let i = document.querySelector('imput[name ="yoso"]')
 }
 
   let data = resp.data;
