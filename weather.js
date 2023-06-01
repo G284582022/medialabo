@@ -51,11 +51,12 @@
 
 let b = document.querySelector('#sendRequest');
 b.addEventListener('click', sendRequest);
-let url ='https://www.nishita-lab.org/web-contents/jsons/openweather/{id}.json'
+let url ='https://www.nishita-lab.org/web-contents/jsons/openweather/'
 function sendRequest(resp) {
- 
+  let data = resp.data;
   axios.get(url)
         .then(showResult)   // 通信成功
         .catch(showError)   // 通信失敗
         .then(finish);      // 通信の最後の処理
 }
+
