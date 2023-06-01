@@ -55,7 +55,7 @@ function sendRequest(resp) {
   let i = document.querySelector('imput[name ="yoso"]')
 }
 
-  let data = resp.data;
+let data = resp.data;
   axios.get(url)
         .then(showResult)   // 通信成功
         .catch(showError)   // 通信失敗
