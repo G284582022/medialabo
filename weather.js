@@ -51,8 +51,9 @@
 
 let b = document.querySelector('#sendRequest');
 b.addEventListener('click', sendRequest);
-function sendRequest() {
-  let url = 
+let url ='https://www.nishita-lab.org/web-contents/jsons/openweather/{id}.json'
+function sendRequest(resp) {
+ 
   axios.get(url)
         .then(showResult)   // 通信成功
         .catch(showError)   // 通信失敗
